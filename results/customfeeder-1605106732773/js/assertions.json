@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CustomFeeder",
+  "simulationId": "customfeeder",
+  "start": 1605106732773,
+  "description": "",
+  "scenarios": ["Video Game DB"],
+  "assertions": [
+
+  ]
+}

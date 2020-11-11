@@ -1,0 +1,8 @@
+RUN	simulations.CustomFeeder		customfeeder	1605106398264	 	2.0
+USER	Video Game DB	1	START	1605106399002	1605106399002
+REQUEST	Video Game DB	1		Post New Game	1605106399100	1605106399185	KO	status.find.is(200), but actually found 400
+REQUEST	Video Game DB	1		Post New Game	1605106400209	1605106400214	KO	status.find.is(200), but actually found 400
+REQUEST	Video Game DB	1		Post New Game	1605106401208	1605106401212	KO	status.find.is(200), but actually found 400
+REQUEST	Video Game DB	1		Post New Game	1605106402219	1605106402223	KO	status.find.is(200), but actually found 400
+REQUEST	Video Game DB	1		Post New Game	1605106403218	1605106403222	KO	status.find.is(200), but actually found 400
+USER	Video Game DB	1	END	1605106399002	1605106404230
