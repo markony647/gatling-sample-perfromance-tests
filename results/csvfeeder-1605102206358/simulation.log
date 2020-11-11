@@ -1,0 +1,13 @@
+RUN	simulations.CsvFeeder		csvfeeder	1605102206358	 	2.0
+USER	Video Game DB	1	START	1605102207075	1605102207075
+REQUEST	Video Game DB	1		Get specific video game	1605102207108	1605102207121	KO	jsonPath($.name).find.is({gameName}), but actually found Resident Evil 4
+REQUEST	Video Game DB	1		Get specific video game	1605102208141	1605102208144	KO	jsonPath($.name).find.is({gameName}), but actually found Gran Turismo 3
+REQUEST	Video Game DB	1		Get specific video game	1605102209152	1605102209154	KO	jsonPath($.name).find.is({gameName}), but actually found Tetris
+REQUEST	Video Game DB	1		Get specific video game	1605102210151	1605102210153	KO	jsonPath($.name).find.is({gameName}), but actually found Super Mario 64
+REQUEST	Video Game DB	1		Get specific video game	1605102211151	1605102211154	KO	jsonPath($.name).find.is({gameName}), but actually found Resident Evil 4
+REQUEST	Video Game DB	1		Get specific video game	1605102212151	1605102212153	KO	jsonPath($.name).find.is({gameName}), but actually found Gran Turismo 3
+REQUEST	Video Game DB	1		Get specific video game	1605102213162	1605102213164	KO	jsonPath($.name).find.is({gameName}), but actually found Tetris
+REQUEST	Video Game DB	1		Get specific video game	1605102214164	1605102214166	KO	jsonPath($.name).find.is({gameName}), but actually found Super Mario 64
+REQUEST	Video Game DB	1		Get specific video game	1605102215162	1605102215164	KO	jsonPath($.name).find.is({gameName}), but actually found Resident Evil 4
+REQUEST	Video Game DB	1		Get specific video game	1605102216171	1605102216173	KO	jsonPath($.name).find.is({gameName}), but actually found Gran Turismo 3
+USER	Video Game DB	1	END	1605102207075	1605102217173
