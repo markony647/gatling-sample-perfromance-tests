@@ -1,0 +1,4 @@
+RUN	simulations.CheckResponseBodyAndExtract		checkresponsebodyandextract	1605097660487	 	2.0
+USER	Video Game DB	1	START	1605097661021	1605097661021
+REQUEST	Video Game DB	1		Get specific game	1605097661044	1605097661056	KO	jsonPath($.name).find.is(Resident Evil 5), but actually found Resident Evil 4
+USER	Video Game DB	1	END	1605097661021	1605097661152

@@ -1,0 +1,6 @@
+RUN	simulations.AddPauseTime		addpausetime	1605096809828	 	2.0
+USER	Vedeio Game DB	1	START	1605096810261	1605096810261
+REQUEST	Vedeio Game DB	1		Get All Video Games - 1st call	1605096810280	1605096810280	KO	j.n.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:8888
+REQUEST	Vedeio Game DB	1		Get specific game	1605096815310	1605096815310	KO	j.n.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:8888
+REQUEST	Vedeio Game DB	1		Get All Video Games - 2nd call	1605096819379	1605096819379	KO	j.n.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:8888
+USER	Vedeio Game DB	1	END	1605096810261	1605096822369

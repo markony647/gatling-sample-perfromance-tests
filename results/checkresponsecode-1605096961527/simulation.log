@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponseCode		checkresponsecode	1605096961527	 	2.0
+USER	Video Game DB	1	START	1605096962038	1605096962038
+REQUEST	Video Game DB	1		Get All Video Games - 1st call	1605096962058	1605096962076	KO	status.find.is(400), but actually found 404
+REQUEST	Video Game DB	1		Get specific game	1605096962098	1605096962103	OK	 
+REQUEST	Video Game DB	1		Get All Video Games - 2nd call	1605096962104	1605096962108	KO	status.find.not(404), but actually unexpectedly found 404
+USER	Video Game DB	1	END	1605096962038	1605096962110

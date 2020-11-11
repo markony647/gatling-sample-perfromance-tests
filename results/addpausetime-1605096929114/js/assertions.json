@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.AddPauseTime",
+  "simulationId": "addpausetime",
+  "start": 1605096929114,
+  "description": "",
+  "scenarios": ["Vedeio Game DB"],
+  "assertions": [
+
+  ]
+}

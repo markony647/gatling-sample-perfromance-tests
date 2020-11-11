@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponseCode		checkresponsecode	1605096748181	 	2.0
+USER	Video Game DB	1	START	1605096748599	1605096748599
+REQUEST	Video Game DB	1		Get All Video Games - 1st call	1605096748618	1605096748618	KO	j.n.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:8888
+REQUEST	Video Game DB	1		Get specific game	1605096748638	1605096748638	KO	j.n.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:8888
+REQUEST	Video Game DB	1		Get All Video Games - 2nd call	1605096748644	1605096748644	KO	j.n.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:8888
+USER	Video Game DB	1	END	1605096748599	1605096748650
