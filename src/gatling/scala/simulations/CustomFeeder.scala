@@ -6,7 +6,6 @@ import java.time.format.DateTimeFormatter
 import baseConfig.BaseSimulation
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
-import sun.security.util.Length
 
 import scala.util.Random
 
